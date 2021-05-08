@@ -1,7 +1,18 @@
-# In A Nutshell
+# Step By Step Guide to Responsive Navbar
 
-This Repo is a collection of step by step guides to create common ui/ux elelemnts (navbar,tab, modal,accordion etc.) using vanilla JS!
+**Step 1**
+Create the HTML Markup
 
-## How to use ?
+**Step 2**
+Stylize the markup using CSS
 
-Check each branch, branch name represents ux/ui element tutorial . Ex: if you are checking `responsive nav` branch then index.html has the html markup & styles.css has the styles
+**Step 3**
+
+- Access the html elements in js
+- Show or hide menu list when hamburger button is clicked
+- also change the icon of hamburger button whenever it is clicked
+
+**Step 4** (optional)
+
+- create a hidemenu function which hides the menu list when a particular breakpoint is matched
+- call this function whenever window loads or resizes
